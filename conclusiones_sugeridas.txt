@@ -1,0 +1,26 @@
+
+CONCLUSIONES:
+
+1. DETECCIÓN DE PERIODICIDAD:
+   Se detectó una periodicidad significativa en los datos con un período principal
+   de P₁ = 0.024994 días (0.600 horas), con una relación señal a 
+   ruido de S/N = 1.04, lo que indica una detección baja - detección marginal o dudosa. 
+   La probabilidad de que esta periodicidad sea real es <95%.
+
+2. CLASIFICACIÓN ESTELAR:
+   Basándose en el período de 0.024994 días y la amplitud de 0.009917 mag,
+   la estrella analizada se clasifica como: Variable de período ultra-corto.
+   Posible subdwarf B pulsante (sdBV) o binaria de período muy corto
+
+3. MONOPERIODICIDAD:
+   No se detectaron frecuencias secundarias significativas. La estrella parece
+   ser monoperiódica, con toda la variabilidad explicada por una única frecuencia.
+
+4. CALIDAD DEL MODELO:
+   El modelo ajustado por Period04 explica 8.14% de la varianza
+   en los datos, con un RMS de residuos de 0.033544 mag y χ²ᵣ = 14.75.
+   Los residuos muestran estructura remanente, sugiriendo posible señal adicional.
+
+5. SIGNIFICANCIA ASTROFÍSICA:
+   La detección de esta estrella variable tipo Variable de período ultra-corto con período
+   0.024994 días es importante para estudios de evolución estelar.

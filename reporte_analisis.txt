@@ -1,0 +1,88 @@
+
+================================================================================
+REPORTE DE ANÁLISIS: ESTRELLA VARIABLE
+================================================================================
+
+1. INTRODUCCIÓN
+---------------
+Este reporte presenta el análisis de la curva de luz de una estrella variable
+utilizando datos fotométricos reales. El objetivo es determinar la presencia de
+periodicidades, cuantificarlas estadísticamente e identificar el tipo de estrella
+basándose en las características de su variabilidad.
+
+2. ANÁLISIS DE DATOS
+--------------------
+2.1. Características de los datos:
+   - Número total de observaciones: 1646
+   - Rango temporal: 0.18 días
+   - Error promedio de medición: 0.007897
+
+2.2. Estadísticas básicas:
+   - Flujo promedio observado: -0.002031
+   - Desviación estándar observada: 0.034999
+   - Varianza observada: 1.224900e-03
+
+3. ANÁLISIS DE PERIODICIDADES
+-----------------------------
+3.1. Frecuencia principal:
+   - Frecuencia: 40.008891 ciclos/día
+   - Período: 0.024994 días
+   - Amplitud: 0.009917
+   - Relación Señal-Ruido (SNR): 14.02
+   - False Alarm Probability (FAP): 3.550012e-40
+   - Probabilidad de ser real: 100.00%
+
+3.2. Frecuencia secundaria:
+   - Frecuencia: 139.475439 ciclos/día
+   - Período: 0.007170 días
+   - Amplitud: 0.009993
+   - Relación Señal-Ruido (SNR): 14.13
+   - False Alarm Probability (FAP): 7.801015e-41
+   - Probabilidad de ser real: 100.00%
+
+4. CALIDAD DEL AJUSTE
+---------------------
+   - Varianza de residuos: 1.125230e-03
+   - Reducción de varianza: 8.14%
+   - Desviación estándar de residuos: 0.033544
+   - Los residuos siguen una distribución normal (μ=0.000, σ=0.034)
+
+5. INTERPRETACIÓN Y CLASIFICACIÓN
+----------------------------------
+5.1. Características observadas:
+   - Presencia de al menos dos periodicidades significativas
+   - SNR alto para la frecuencia principal (14.02)
+   - Amplitud de variación: 0.0198 (pico a pico)
+
+5.2. Posible clasificación:
+   Basado en las características encontradas:
+   - Período principal: 0.024994 días
+   - Amplitud moderada
+   - Múltiples períodos presentes
+
+   La estrella podría clasificarse como:
+   * Variable pulsante tipo Delta Scuti (si el período está en el rango 0.01-0.3 días)
+   * Variable tipo RR Lyrae (si el período está en 0.2-1.2 días y amplitud > 0.3)
+   * Variable tipo Cefeida (si el período es mayor a 1 día)
+
+   Dado el período de 0.024994 días, la estrella presenta características
+   más consistentes con una variable pulsante tipo RR Lyrae o Cefeida clásica,
+   dependiendo de la amplitud exacta y forma de la curva de luz.
+
+6. CONCLUSIONES
+---------------
+- Se detectó una periodicidad altamente significativa (SNR=14.02)
+- La FAP extremadamente baja (3.550012e-40) indica que la señal no es producto del ruido
+- La presencia de una segunda frecuencia sugiere modulación o múltiples modos de pulsación
+- La reducción de varianza del 8.14% confirma la calidad del ajuste
+- Se recomienda observación adicional para confirmar la clasificación exacta
+
+7. REFERENCIAS
+--------------
+- Period04: Lenz & Breger, 2005, Communications in Asteroseismology, 146, 53
+- Método de Scargle para cálculo de FAP: Scargle, 1982, ApJ, 263, 835
+- Clasificación de variables: Samus et al., 2017, Astronomy Reports, 61, 80
+
+================================================================================
+Reporte generado automáticamente - 06/12/2025 22:25:45
+================================================================================

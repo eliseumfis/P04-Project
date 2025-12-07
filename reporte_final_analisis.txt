@@ -1,0 +1,97 @@
+
+====================================================================================================
+REPORTE DE ANÁLISIS: ESTRELLA VARIABLE
+====================================================================================================
+Fecha de análisis: 06/12/2025 23:07:07
+Herramienta utilizada: Period04
+Analista: [Tu Nombre]
+
+1. INTRODUCCIÓN
+---------------
+Este reporte presenta el análisis fotométrico de una estrella variable utilizando
+datos reales procesados con el software Period04. El objetivo es determinar la
+presencia de periodicidades significativas en la curva de luz y evaluar su
+naturaleza estadística mediante el cálculo de la relación señal-ruido (SNR) y la
+probabilidad de falsa alarma (FAP).
+
+2. CARACTERÍSTICAS DE LOS DATOS
+-------------------------------
+- Número total de observaciones: 1646
+- Duración del monitoreo: 0.18 días
+- Error promedio de medición: 0.007897
+- Rango temporal: 2459351.76 a 2459351.94 días
+
+3. ANÁLISIS ESTADÍSTICO
+-----------------------
+3.1. Datos observados:
+   - Valor medio: -0.002031
+   - Desviación estándar: 0.034999
+   - Varianza: 1.224900e-03
+
+3.2. Calidad del ajuste:
+   - Reducción de varianza: 8.14%
+   - Desviación estándar de residuos: 0.033544
+   - Los residuos NO siguen distribución normal (p-value = 0.0000)
+
+4. ANÁLISIS DE PERIODICIDADES
+-----------------------------
+4.1. Frecuencia principal (F1):
+   - Frecuencia: 40.008891 ciclos/día
+   - Período: 0.024994 días
+   - Amplitud: 0.009917
+   - SNR calculado por Period04: 1.0378
+   - False Alarm Probability (FAP): 1.000000 (100.0000%)
+   - Probabilidad de ser real: 0.00%
+   - Interpretación: PROBABLEMENTE RUIDO
+
+4.2. Frecuencia secundaria (F2):
+   - Frecuencia: 139.475439 ciclos/día
+   - Período: 0.007170 días
+   - Amplitud: 0.009993
+   - SNR calculado por Period04: 1.0404
+   - False Alarm Probability (FAP): 1.000000 (100.0000%)
+   - Probabilidad de ser real: 0.00%
+   - Interpretación: PROBABLEMENTE RUIDO
+
+5. DISCUSIÓN DE RESULTADOS
+--------------------------
+5.1. Significancia estadística:
+   - Ambas frecuencias presentan SNR < 4.0, lo que sugiere baja significancia.
+   - El criterio aceptado en la literatura (Scargle 1982) requiere SNR ≥ 4.0 para
+     considerar una señal como estadísticamente significativa.
+   - Las probabilidades de falsa alarma (FAP) son relativamente altas, indicando
+     que estas señales podrían ser producto del ruido.
+
+5.2. Posible naturaleza de la estrella:
+   Basado en los períodos encontrados:
+   - Período 1: 0.024994 días
+   - Período 2: 0.007170 días
+
+   Considerando la baja significancia estadística (SNR ~1.0), es probable que:
+   1. La estrella NO presente variabilidad periódica significativa.
+   2. Los "períodos" detectados son artefactos del ruido.
+   3. Se requiere observación adicional con mayor precisión fotométrica.
+
+6. CONCLUSIÓN
+-------------
+- No se detectaron periodicidades estadísticamente significativas (SNR < 4.0).
+- Los valores de FAP indican alta probabilidad de que las señales sean producto del ruido.
+- La reducción de varianza del 8.14% sugiere que el modelo sinusoidal
+  explica solo una pequeña fracción de la variabilidad total.
+- Se recomienda:
+  1. Observación adicional con mayor cadencia temporal.
+  2. Uso de filtros fotométricos específicos.
+  3. Análisis complementario con otras técnicas de periodograma.
+
+7. REFERENCIAS
+--------------
+- Period04: Lenz & Breger, 2005, Communications in Asteroseismology, 146, 53
+- Cálculo de FAP: Scargle, 1982, ApJ, 263, 835
+- Criterios de significancia: Frescura et al., 2013, A&A, 558, A33
+
+====================================================================================================
+ARCHIVOS GENERADOS:
+1. analisis_completo_curva_luz.png
+2. curvas_plegadas.png  
+3. espectro_ruido.png
+====================================================================================================
