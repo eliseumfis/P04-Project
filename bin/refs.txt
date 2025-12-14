@@ -1,0 +1,18 @@
+REFERENCIAS SUGERIDAS:
+1. Warner, B. 1995, 'Cataclysmic Variable Stars', Cambridge Univ. Press
+2. Kepler, S.O., et al. 2015, 'New white dwarf stars in the Sloan Digital Sky Survey'
+3. Szkody, P., et al. 2011, 'Cataclysmic Variables from the Sloan Digital Sky Survey'
+4. Mukadam, A.S., et al. 2004, 'The pulsating white dwarf stars'
+
+
+# 7. Referencias
+
+[1] Lenz, P., & Breger, M. (2005). Period04 User Guide. *Communications in Asteroseismology*, 146, 53-136.
+
+[2] Breger, M., et al. (1999). Detection of 75+ pulsation frequencies in the delta Scuti star FG Virginis. *Astronomy & Astrophysics*, 349, 225-235.
+
+[3] Horne, J. H., & Baliunas, S. L. (1986). A prescription for period analysis of unevenly sampled time series. *The Astrophysical Journal*, 302, 757-763.
+
+[4] Percy, J. R. (2007). *Understanding Variable Stars*. Cambridge University Press.
+
+[5] Sterken, C., & Jaschek, C. (1996). *Light Curves of Variable Stars: A Pictorial Atlas*. Cambridge University Press.

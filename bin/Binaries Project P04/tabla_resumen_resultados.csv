@@ -1,0 +1,24 @@
+Parámetro,Valor
+Frecuencia f₁,40.008891 c/d
+Período P₁,0.024994 días (0.600 h)
+Amplitud A₁,0.009917 mag
+Fase φ₁,0.916277
+Señal/Ruido (S/N) f₁,1.04
+Probabilidad real f₁,<95%
+,
+Frecuencia f₂,139.475439 c/d
+Período P₂,0.007170 días (0.172 h)
+Amplitud A₂,0.009993 mag
+Fase φ₂,0.857425
+Señal/Ruido (S/N) f₂,1.04
+Relación P₂/P₁,0.2869
+,
+N° observaciones,1646
+Rango temporal,0.18 días
+Reducción varianza,8.14%
+RMS residuos,0.033544 mag
+χ² reducido,14.7529
+Test Shapiro-Wilk (p),0.0000
+,
+Tipo de estrella,Variable de período ultra-corto
+Clasificación,BAJA - Detección marginal o dudosa

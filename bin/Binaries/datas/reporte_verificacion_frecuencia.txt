@@ -1,0 +1,48 @@
+
+================================================================================
+REPORTE DE VERIFICACIÓN: ¿ES LA FRECUENCIA REAL?
+================================================================================
+Fecha: 2025-12-08 17:58:29
+
+1. PARÁMETROS DE LA FRECUENCIA:
+   - Frecuencia: 20.004445 ciclos/unidad
+   - Período: 0.049989 unidades
+   - Amplitud: 0.009558
+   - SNR Period04: 20.9155
+   - Nivel de ruido: 0.000457
+
+2. ANÁLISIS DE SIGNIFICANCIA:
+   - FAP calculada: 0.000000 (0.0000%)
+   - Probabilidad de ser real: 100.00%
+   - SNR manual (mediana): 2.1888
+   - FAP manual: 1.000000
+
+3. PRUEBA DE PERMUTACIONES:
+   - p-value: 0.000000
+   - Significativo al 1%: Sí
+   - Significativo al 5%: Sí
+
+4. ANÁLISIS DE RESIDUOS:
+   - Test normalidad p-value: 0.000000
+   - ¿Residuos normales? No
+   - Autocorrelación fuera límite: 60.0%
+   - ¿Ruido blanco? No
+
+5. COHERENCIA TEMPORAL:
+   - Segmentos analizados: 0
+   - Variabilidad entre segmentos: 0.0%
+   - ¿Coherente? No
+
+6. ANÁLISIS DE ARMÓNICOS:
+   - ¿Hay armónicos detectados? Sí
+   - Factor armónico: 2
+
+7. CRITERIOS CUMPLIDOS: 3/5 (60.0%)
+
+8. CONCLUSIÓN FINAL:
+   ⚠ SEÑAL POSIBLEMENTE REAL
+
+9. RECOMENDACIONES:
+   • Observación adicional recomendada para confirmar
+
+================================================================================

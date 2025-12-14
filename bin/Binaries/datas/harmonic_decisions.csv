@@ -1,0 +1,7 @@
+index,freq,n_est,within_tol,snr_ok,armonic_probable
+0,40.0088908952285,2,True,True,Sí
+1,20.0044454468522,1,True,True,Sí (fundamental)
+2,139.63302963727,7,True,True,Sí
+3,179.206490467586,9,True,True,Sí
+4,119.748833165148,6,True,True,Sí
+5,199.448766407395,10,True,True,Sí
